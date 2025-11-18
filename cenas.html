@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clube de Literatura - Jogo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game">
+  <img id="charYurika" class="character" src="yurika.png" style="left:50px;">
+  <img id="charNami" class="character" src="nami.png" style="right:50px;">
+  <img id="charSayuri" class="character" src="sayuri.png" style="left:300px;">
+  <img id="charMika" class="character" src="mika.png" style="right:300px;">
+
+  <div id="dialogueBox">
+    <div id="dialogueText">Clique para começar o jogo...</div>
+    <div id="choices"></div>
+  </div>
+</div>
+
+<audio id="bgMusic" loop autoplay>
+  <source src="musica_fundo.mp3" type="audio/mp3">
+</audio>
+
+<script src="cenas.js"></script>
+</body>
+</html>
